@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Lato", sans-serif;
+  font-family: 200;
+  src: url(../public/font/Lato-Regular.ttf);
+}
+
+:root {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

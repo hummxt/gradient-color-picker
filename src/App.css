@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 30px 100px;
+  width: 100%;
+  background-color: rgb(23, 23, 23);
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+header .dark-mode-icon {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+
+
+/* Gradient color picker hisse */
+
+.gradient-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.gradient-section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 38px;
+  margin-bottom: 40px;
+  width: 40%;
+}
+
+.gradient-preview {
+  position: relative;
+  background: gradient;
+  background: linear-gradient(90deg, red, blue);
+  height: 44vw; 
+  width: 70vw;
+  margin: auto;
+  border: 4px solid rgb(22, 22,22);
+  border-radius: 12px;
+}
+
+.gradient-color {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white; 
+  margin-top: 20px;
+}
+
+.gradient-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.gradient-picker .angle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgb(33, 33, 33);
+  width: 200px;
+  height: 230px;
+  border-radius: 6px;
+  gap: 14px;
+}
+
+.gradient-picker .angle p {
+  color: white;
+  font-size: 20px;
+}
+
+.gradient-picker a {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.gradient-picker input {
+  margin: 5px;
+}
+
+.picker-copy {
+  margin-top: 20px;
+}
+
+.color-picker input {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(33 ,33 ,33);
+  border: 1px solid rgb(33, 33, 33);
+}
+
+/* Gradient color picker */
+
+
+
+
+
+/* Hovers */
+
+.gradient-picker a:hover {
+  cursor: pointer;
+  color: #3498db; 
+}
+
+
+/* Hovers */
+
+
+
+
+
+/* Responsive Design */
+
+/* 1024px */
+
+@media screen and (max-width: 1024px) {
+  .gradient-preview {
+    height: 80vw;
+    width: 90vw;
+  }
+
+}
+
+/* 1024px */
+
+
+
+
+
+/* 768px */
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  header {
+    min-width: 100%;
+    padding: 30px 60px;
+  }
+
+  .gradient-preview {
+    height: 90vw;
+    width: 90vw;
+  }
+
+
+  .gradient-section {
+    margin-top: 12vh;
+  }
+
+  .gradient-section h1 {
+    width: 100%;
+    font-size: 37px;
+  }
+}
+
+/* 768px */
