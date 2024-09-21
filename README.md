@@ -10,7 +10,7 @@ A React application that allows users to create, preview, and copy gradient colo
 - Copy the generated CSS gradient code to the clipboard.<br>
 - Toggle between dark and light mode.<br>
 
-Technologies Used
+Technologies Used<br>
 React<br>
 CSS<br>
 JavaScript<br>
